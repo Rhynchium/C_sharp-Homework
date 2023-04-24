@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B00F7914-43AA-4672-A2B3-42654CE887B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Homework1</RootNamespace>
+    <AssemblyName>Homework1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Homework9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework9.Designer.cs">
+      <DependentUpon>Homework9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework1.Designer.cs">
+      <DependentUpon>Homework1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework2.Designer.cs">
+      <DependentUpon>Homework2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework2appendix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework2appendix.Designer.cs">
+      <DependentUpon>Homework2appendix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework3.Designer.cs">
+      <DependentUpon>Homework3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework5.Designer.cs">
+      <DependentUpon>Homework5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework6.Designer.cs">
+      <DependentUpon>Homework6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework8.Designer.cs">
+      <DependentUpon>Homework8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeworkUtility.cs" />
+    <Compile Include="Homework4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework4.Designer.cs">
+      <DependentUpon>Homework4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homeworkcenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homeworkcenter.Designer.cs">
+      <DependentUpon>Homeworkcenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_Final_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_Final_Alarm.Designer.cs">
+      <DependentUpon>Homework_Final_Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_Final_Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_Final_Guess.Designer.cs">
+      <DependentUpon>Homework_Final_Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_Final_Guess_type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_Final_Guess_type.Designer.cs">
+      <DependentUpon>Homework_Final_Guess_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_NotePad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_NotePad.Designer.cs">
+      <DependentUpon>Homework_NotePad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_Painter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_Painter.Designer.cs">
+      <DependentUpon>Homework_Painter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_PictureViewer.Designer.cs">
+      <DependentUpon>Homework_PictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_pictureViewer_Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_pictureViewer_Viewer.Designer.cs">
+      <DependentUpon>Homework_pictureViewer_Viewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_ScreenServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_ScreenServer.Designer.cs">
+      <DependentUpon>Homework_ScreenServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework10_XOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework10_XOGame.Designer.cs">
+      <DependentUpon>Homework10_XOGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework_NotePad_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework_NotePad_info.Designer.cs">
+      <DependentUpon>Homework_NotePad_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Homework9.resx">
+      <DependentUpon>Homework9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework1.resx">
+      <DependentUpon>Homework1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework2.resx">
+      <DependentUpon>Homework2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework2appendix.resx">
+      <DependentUpon>Homework2appendix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework3.resx">
+      <DependentUpon>Homework3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework4.resx">
+      <DependentUpon>Homework4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework5.resx">
+      <DependentUpon>Homework5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework6.resx">
+      <DependentUpon>Homework6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework8.resx">
+      <DependentUpon>Homework8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homeworkcenter.resx">
+      <DependentUpon>Homeworkcenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_Final_Alarm.resx">
+      <DependentUpon>Homework_Final_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_Final_Guess.resx">
+      <DependentUpon>Homework_Final_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_Final_Guess_type.resx">
+      <DependentUpon>Homework_Final_Guess_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_NotePad.resx">
+      <DependentUpon>Homework_NotePad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_Painter.resx">
+      <DependentUpon>Homework_Painter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_PictureViewer.resx">
+      <DependentUpon>Homework_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_pictureViewer_Viewer.resx">
+      <DependentUpon>Homework_pictureViewer_Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_ScreenServer.resx">
+      <DependentUpon>Homework_ScreenServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework10_XOGame.resx">
+      <DependentUpon>Homework10_XOGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework_NotePad_info.resx">
+      <DependentUpon>Homework_NotePad_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
